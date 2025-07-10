@@ -1,2 +1,14 @@
 # PersonalLigaMagicImportConversion
 Conversão de planilha pessoal em um formato aceitável para upload na aba "Coleções" do site "LigaMagic.com.br".
+
+FormatoBase.csv -> Formato de string usado como modelo para o arquivo ".csv" aceito pelo site (ligamagic.com.br).
+
+MTG Silva -> Planilha de onde foram extraídas todas as informações. (https://docs.google.com/spreadsheets/d/12pFydagg4n4O4vJ6cP_ZzbUosYMY5-2i0vBfpqCYoGk/edit?usp=sharing).
+
+Relatório MTG.pdf -> Relatório contendo o passo a passo desde a concepção do projeto à sua conclusão.
+
+ligamagic.py -> Código usado para a conversão dos dados para o formato aceito pelo site.
+
+206233_860394b154ebf360ce360e5853ecdc4e60592dc8.csv -> Arquivo modelo da expansão Streets of New Capenna demonstrando qual o modelo alvo para a conversão.
+
+testeliga.csv -> Conjunto menor de dados extraídos da planilha "MTG Silva" a fim de testar as informações no site e realizar as devidas correções.
